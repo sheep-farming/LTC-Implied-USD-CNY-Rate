@@ -5,15 +5,15 @@ var loffset = 1/1.0231,boffset = 0.1385, btcusd=0, btccny=0, busdcny=0,ltcusd=0,
 
 
 var calc = ()=>{
-    /*
+    
     if(btcusd&&btccny){
         busdcny = btccny/btcusd; 
-        console.log("BTC X/R Implied "+busdcny.toFixed(4).yellow + " - " + boffset.toFixed(4).blue+" = "+(busdcny-boffset).toFixed(4));
+        console.log("BTC X/R Implied "+busdcny.toFixed(4).yellow);// + " - " + boffset.toFixed(4).blue+" = "+(busdcny-boffset).toFixed(4));
     }
-    */
+    
     if(ltcusd&&ltccny){
         lusdcny = ltccny/ltcusd; 
-        console.log("LTC X/R Implied "+lusdcny.toFixed(4).yellow + " * " + loffset.toFixed(4).blue+" = "+(lusdcny*loffset).toFixed(4));
+        console.log("LTC X/R Implied "+lusdcny.toFixed(4).yellow);//+ " * " + loffset.toFixed(4).blue+" = "+(lusdcny*loffset).toFixed(4));
     }
 }
 
